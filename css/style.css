@@ -105,7 +105,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.100) 100%),url(/BR-pt-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.100) 100%),url(/img/BR-pt-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   background-size: cover;
   letter-spacing: 0.2rem;
   font-family: "Bebas", Verdana, Arial, Helvetica, sans-serif;
