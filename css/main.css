@@ -27,4 +27,61 @@
     font-size: 62.5%;
   }
   /* ^ ^ CSS RESET E VAR ^ ^*/
+  :root {
+    --background: rgb(50, 50, 50);
+    --vermelho: #e50914;
+  }
+  @font-face {
+    font-family: "Bebas";
+    src: url(/fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-variant: normal;
+  }
+  @font-face {
+    font-family: "Arcane";
+    src: url(/fonts/Arcane.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-variant: normal;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  /* ^ ^ CSS RESET E VAR ^ ^*/
   
+  /* Header CSS */
+  .cabecalho {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.8)
+    );
+    min-width: 100%;
+  }
+  .cabecalho > nav {
+    padding: 0rem 5.6rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cabecalho > nav > h1 {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    font-family: "Arcane", Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--vermelho);
+    text-shadow: 0.1rem 0.3rem 0.5rem black;
+  }

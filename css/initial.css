@@ -49,10 +49,10 @@ html {
   justify-content: space-between;
   align-items: center;
 }
-.cabecalho > nav > input[type=checkbox]{
+.cabecalho > nav > input[type="checkbox"] {
   display: none;
 }
-.cabecalho > nav > label[for=ham]{
+.cabecalho > nav > label[for="ham"] {
   display: none;
 }
 .cabecalho > nav > h1 {
@@ -111,7 +111,8 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.100) 100%),url(/img/BR-pt-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) 100%),
+    url(/img/BR-pt-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   background-size: cover;
   letter-spacing: 0.2rem;
   font-family: "Bebas", Verdana, Arial, Helvetica, sans-serif;
@@ -148,7 +149,7 @@ h3 {
 .content a:hover {
   background-color: #ff000d;
 }
-@media (min-width:1024px){
+@media (min-width: 1024px) {
   .titulo-initial > h1 {
     font-size: 6rem;
   }
@@ -159,13 +160,12 @@ h3 {
     font-size: 3em;
   }
 }
-@media (max-width:768px){
+@media (max-width: 768px) {
   .cabecalho > nav {
     flex-direction: column;
   }
   .cabecalho > nav > ul {
     margin-top: 4rem;
-    display:block;
+    display: block;
   }
-
 }
