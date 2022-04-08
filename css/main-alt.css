@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Bebas";
-  src: url(/fonts/BebasNeue.otf);
+  src: url(../fonts/BebasNeue.otf);
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: "Arcane";
-  src: url(/fonts/Arcane.ttf);
+  src: url(../fonts/Arcane.ttf);
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -20,7 +20,7 @@
 }
 @font-face {
   font-family: "Valorant";
-  src: url(/fonts/Valorant\ Font.ttf);
+  src: url(/..fonts/Valorant\ Font.ttf);
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -108,7 +108,7 @@ body{
 }
 .game-main {
   padding: 3.2rem;
-  background-image: url(/img/pexels-photo-261043.jpeg);
+  background-image: url(../img/pexels-photo-261043.jpeg);
   height: 30rem;
   background-size: cover;
   width: 100%;

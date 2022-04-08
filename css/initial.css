@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Bebas";
-  src: url(/fonts/BebasNeue.otf);
+  src: url(../fonts/BebasNeue.otf);
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: "Arcane";
-  src: url(/fonts/Arcane.ttf);
+  src: url(../fonts/Arcane.ttf);
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -106,7 +106,7 @@ html {
   justify-content: center;
   flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) 100%),
-    url(/img/BR-pt-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    url(../img/BR-pt-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   background-size: cover;
   letter-spacing: 0.2rem;
   font-family: "Bebas", Verdana, Arial, Helvetica, sans-serif;
