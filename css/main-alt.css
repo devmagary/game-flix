@@ -39,7 +39,7 @@ a {
 }
 ul {
   list-style: none;
-} 
+}
 h1 {
   font-size: 4.5rem;
 }
@@ -49,14 +49,25 @@ h2 {
 h3 {
   font-size: 2.5em;
 }
-p{
+p {
   font-size: 2rem;
 }
-.titulo-game-flix{
+.titulo-game-flix {
   letter-spacing: 0.5rem;
   font-family: "Arcane", Verdana, Geneva, Tahoma, sans-serif;
   color: var(--vermelho);
   text-shadow: 0.1rem 0.3rem 0.5rem black;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  color: white;
+}
+.margin-content {
+  margin-top: 3.2rem;
+}
+body{
+  background: rgb(30, 30, 30);
 }
 /* ^ ^ CSS RESET E VAR ^ ^*/
 
@@ -64,11 +75,15 @@ p{
 
 .nav {
   font-family: "Arcane", Arial, Helvetica, sans-serif;
-  border: 0.3rem solid transparent;
-  background-image: linear-gradient(rgb(20, 20, 20), rgba(20, 20, 20, 0.856)), linear-gradient(to right, red, blue);
+  border: 1rem solid transparent;
+  background-image: linear-gradient(rgb(20, 20, 20), rgba(20, 20, 20, 0.856)),
+    linear-gradient(to right, red, blue);
   background-clip: content-box, border-box;
   background-origin: border-box;
+  border-bottom-left-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
   color: white;
+  box-shadow: 0px 3px 9px 4px #000000b3;
 }
 .nav-content {
   display: flex;
@@ -78,14 +93,72 @@ p{
   padding: 4rem;
   animation: myAnim 2s ease-in-out 0s infinite normal forwards;
 }
+.nav-content h2 {
+  color: #ffffff;
+  text-shadow: 0 0 0.5rem #fff, 0 0 1rem #fff, 0 0 1.5rem #fff, 0 0 2rem #49ff18,
+    0 0 3rem #49ff18, 0 0 4rem #49ff18, 0 0 5.5rem #49ff18, 0 0 7.5rem #49ff18;
+  letter-spacing: 0.3rem;
+}
 
+/* -----MAIN CONTENT----- */
+
+.content {
+  border: 1rem ridge #e50914;
+  border-radius: 1.6rem;
+}
+.game-main {
+  padding: 3.2rem;
+  background-image: url(/img/pexels-photo-261043.jpeg);
+  height: 30rem;
+  background-size: cover;
+  width: 100%;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+
+}
+.games-geral{
+  display: flex;
+}
+.games-geral div p{
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+.cla1{
+  background: red;
+  width: 20.8rem;
+  height: 30rem;
+  margin-right: 6rem;
+}
+.cla2{
+  background: black;
+  width: 20.8rem;
+  height: 30rem;
+  margin-right: 6rem;
+}
+.cla3{
+  background: purple;
+  width: 20.8rem;
+  height: 30rem;
+  margin-right: 6rem;
+}
+.cla4{
+  background: yellow;
+  width: 20.8rem;
+  height: 30rem;
+  margin-right: 6rem;
+}
+.cla5{
+  background: white;
+  width: 20.8rem;
+  height: 30rem;  
+
+}
 @keyframes myAnim {
   0% {
     transform: scale(0.9);
   }
 
   50% {
-    transform: scale(1.0);
+    transform: scale(1);
   }
 
   100% {
