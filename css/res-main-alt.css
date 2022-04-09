@@ -6,11 +6,16 @@
 @media (max-width: 350px) {
   .titulo-game-flix {
     min-width: 24.8rem;
-    
+  }
+  .initial{
+    min-width: 35rem;
+  }
+  .cabecalho{
+    min-width: 35rem;
   }
 }
-@media (max-width:1247px){
-  .major-games{
+@media (max-width: 1247px) {
+  .major-games {
     justify-content: center;
   }
 }

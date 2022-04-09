@@ -26,6 +26,9 @@
 html {
   font-size: 62.5%;
 }
+body {
+  background: rgb(30, 30, 30);
+}
 /* ^ ^ CSS RESET E VAR ^ ^*/
 
 /* Header CSS */
