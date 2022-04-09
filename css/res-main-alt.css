@@ -9,3 +9,8 @@
     
   }
 }
+@media (max-width:1247px){
+  .major-games{
+    justify-content: center;
+  }
+}

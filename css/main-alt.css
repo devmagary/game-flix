@@ -55,6 +55,7 @@ p {
   max-width: 1280px;
   margin: 0 auto;
   color: white;
+  min-width: 320px;
 }
 
 body {
