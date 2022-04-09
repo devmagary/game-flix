@@ -18,14 +18,6 @@
   font-stretch: normal;
   font-variant: normal;
 }
-@font-face {
-  font-family: "Valorant";
-  src: url(/..fonts/Valorant\ Font.ttf);
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  font-variant: normal;
-}
 * {
   padding: 0;
   margin: 0;
@@ -53,6 +45,7 @@ p {
   font-size: 2rem;
 }
 .titulo-game-flix {
+  font-size: 5rem;
   letter-spacing: 0.5rem;
   font-family: "Arcane", Verdana, Geneva, Tahoma, sans-serif;
   color: var(--vermelho);
@@ -63,10 +56,8 @@ p {
   margin: 0 auto;
   color: white;
 }
-.margin-content {
-  margin-top: 3.2rem;
-}
-body{
+
+body {
   background: rgb(30, 30, 30);
 }
 /* ^ ^ CSS RESET E VAR ^ ^*/
@@ -101,10 +92,21 @@ body{
 }
 
 /* -----MAIN CONTENT----- */
-
+.margin-content {
+  margin-top: 3rem;
+}
+.minor-content {
+  width: 20.8rem;
+  height: 30rem;
+}
+.large-content {
+  width: 62.4rem;
+  height: 30rem;
+}
 .content {
   border: 1rem ridge #e50914;
   border-radius: 1.6rem;
+  box-shadow: 0px 3px 9px 4px #000000b3;
 }
 .game-main {
   padding: 3.2rem;
@@ -114,43 +116,19 @@ body{
   width: 100%;
   background-position: left bottom;
   background-repeat: no-repeat;
-
 }
-.games-geral{
+.games-geral {
   display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
-.games-geral div p{
+.games-geral div p {
   text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
-.cla1{
-  background: red;
-  width: 20.8rem;
-  height: 30rem;
-  margin-right: 6rem;
-}
-.cla2{
-  background: black;
-  width: 20.8rem;
-  height: 30rem;
-  margin-right: 6rem;
-}
-.cla3{
-  background: purple;
-  width: 20.8rem;
-  height: 30rem;
-  margin-right: 6rem;
-}
-.cla4{
-  background: yellow;
-  width: 20.8rem;
-  height: 30rem;
-  margin-right: 6rem;
-}
-.cla5{
-  background: white;
-  width: 20.8rem;
-  height: 30rem;  
-
+.major-games {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 @keyframes myAnim {
   0% {
