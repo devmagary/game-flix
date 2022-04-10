@@ -7,15 +7,33 @@
   .titulo-game-flix {
     min-width: 24.8rem;
   }
-  .initial{
-    min-width: 35rem;
-  }
-  .cabecalho{
-    min-width: 35rem;
-  }
 }
 @media (max-width: 1247px) {
   .major-games {
     justify-content: center;
   }
 }
+
+/* ----------Mediaqueries INDEX---------- */
+
+@media (max-width:320px){
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width:600px){
+    .nav {
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+    .nav-botoes {
+        margin-top: 1.5rem;
+    }
+}
+
