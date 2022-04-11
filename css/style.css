@@ -120,6 +120,8 @@ header {
 }
 .main-content {
   color: black;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
 }
 .content {
   height: 100vh;
