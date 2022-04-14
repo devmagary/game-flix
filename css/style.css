@@ -4,6 +4,7 @@
   --background: rgb(30, 30, 30);
   --vermelho: #e50914;
 }
+
 @font-face {
   font-family: "Bebas";
   src: url(../fonts/BebasNeue.otf);
@@ -12,6 +13,7 @@
   font-stretch: normal;
   font-variant: normal;
 }
+
 @font-face {
   font-family: "Arcane";
   src: url(../fonts/Arcane.ttf);
@@ -20,32 +22,41 @@
   font-stretch: normal;
   font-variant: normal;
 }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   background: var(--background);
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style: none;
 }
+
 h1 {
   font-size: 4.5rem;
 }
+
 h2 {
   font-size: 3.5rem;
 }
+
 h3 {
   font-size: 2.5em;
 }
+
 p {
   font-size: 2rem;
 }
@@ -64,10 +75,12 @@ p {
     font-family: Bebas, Arial, Helvetica, sans-serif;
     box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
 }
+
 .botoes:hover {
     background: white;
     color: black;
 }
+
 
 /* ----------HEADER/NAV---------- */
 
@@ -80,6 +93,7 @@ header {
   position: absolute;
   width: 100%;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -88,6 +102,7 @@ header {
   height: 12.9rem;
   margin: 0 3.2rem;
 }
+
 .logo {
   font-size: 4rem;
   letter-spacing: 0.5rem;
@@ -95,12 +110,14 @@ header {
   color: var(--vermelho);
   text-shadow: 0.1rem 0.3rem 0.5rem black;
 }
+
 .nav-botoes {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   list-style: none;
 }
+
 .nav .nav-botoes li:nth-child(2) .botoes{
     margin-right: 0rem;
 }
@@ -112,17 +129,20 @@ header {
     url(../img/BR-pt-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   background-size: cover;
 }
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
   color: white;
   min-width: 320px;
 }
+
 .main-content {
   color: black;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
 }
+
 .content {
   height: 100vh;
   display: flex;
@@ -131,10 +151,12 @@ header {
   justify-content: center;
   color: whitesmoke;
 }
+
 .titulo {
   margin-bottom: 1rem;
   text-align: center;
 }
+
 .content .botoes {
   padding: 1.2rem 2.4rem;
   margin-top: 1rem;

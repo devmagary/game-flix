@@ -1,155 +1,232 @@
 :root {
-  --background: rgb(50, 50, 50);
-  --vermelho: #e50914;
+	--background: rgb(50, 50, 50);
+	--vermelho: #e50914;
+}
+
+@font-face {
+	font-family: "Bebas";
+	src: url(../fonts/BebasNeue.otf);
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	font-variant: normal;
 }
 @font-face {
-  font-family: "Bebas";
-  src: url(../fonts/BebasNeue.otf);
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  font-variant: normal;
+	font-family: "Arcane";
+	src: url(../fonts/Arcane.ttf);
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	font-variant: normal;
 }
-@font-face {
-  font-family: "Arcane";
-  src: url(../fonts/Arcane.ttf);
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  font-variant: normal;
-}
+
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
+
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
 }
+
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
+
 ul {
-  list-style: none;
+	list-style: none;
 }
+
 h1 {
-  font-size: 4.5rem;
+	font-size: 4.5rem;
 }
+
 h2 {
-  font-size: 3.5rem;
+	font-size: 3.5rem;
 }
+
 h3 {
-  font-size: 2.5em;
+	font-size: 2.5em;
 }
+
 p {
-  font-size: 2rem;
+	font-size: 2rem;
 }
+
 .titulo-game-flix {
-  font-size: 5rem;
-  letter-spacing: 0.5rem;
-  font-family: "Arcane", Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--vermelho);
-  text-shadow: 0.1rem 0.3rem 0.5rem black;
+	font-size: 5rem;
+	letter-spacing: 0.5rem;
+	font-family: "Arcane", Verdana, Geneva, Tahoma, sans-serif;
+	color: var(--vermelho);
+	text-shadow: 0.1rem 0.3rem 0.5rem black;
 }
+
 .container {
-  max-width: 1280px;
-  margin: 0 auto;
-  color: white;
-  min-width: 320px;
+	max-width: 1280px;
+	margin: 0 auto;
+	color: white;
+	min-width: 320px;
 }
 
 body {
-  background: rgb(30, 30, 30);
+	background: rgb(30, 30, 30);
 }
+
 /* ^ ^ CSS RESET E VAR ^ ^*/
 
 /* -----Nav----- */
 
 .nav {
-  font-family: "Arcane", Arial, Helvetica, sans-serif;
-  border: 1rem solid transparent;
-  background-image: linear-gradient(rgb(20, 20, 20), rgba(20, 20, 20, 0.856)),
-    linear-gradient(to right, red, blue);
-  background-clip: content-box, border-box;
-  background-origin: border-box;
-  border-bottom-left-radius: 1.6rem;
-  border-bottom-right-radius: 1.6rem;
-  color: white;
-  box-shadow: 0px 3px 9px 4px #000000b3;
+	font-family: "Arcane", Arial, Helvetica, sans-serif;
+	border: 1rem solid transparent;
+	background-image: linear-gradient(rgb(20, 20, 20), rgba(20, 20, 20, 0.856)),
+		linear-gradient(to right, red, blue);
+	background-clip: content-box, border-box;
+	background-origin: border-box;
+	border-bottom-left-radius: 1.6rem;
+	border-bottom-right-radius: 1.6rem;
+	color: white;
+	box-shadow: 0px 3px 9px 4px #000000b3;
 }
+
 .nav-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 4rem;
-  animation: myAnim 2s ease-in-out 0s infinite normal forwards;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 4rem;
+	animation: myAnim 2s ease-in-out 0s infinite normal forwards;
 }
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.9);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.9);
+	}
+}
+
 .nav-content h2 {
-  color: #ffffff;
-  text-shadow: 0 0 0.5rem #fff, 0 0 1rem #fff, 0 0 1.5rem #fff, 0 0 2rem #49ff18,
-    0 0 3rem #49ff18, 0 0 4rem #49ff18, 0 0 5.5rem #49ff18, 0 0 7.5rem #49ff18;
-  letter-spacing: 0.3rem;
+	color: #ffffff;
+	text-shadow: 0 0 0.5rem #fff, 0 0 1rem #fff, 0 0 1.5rem #fff, 0 0 2rem #49ff18,
+		0 0 3rem #49ff18, 0 0 4rem #49ff18, 0 0 5.5rem #49ff18, 0 0 7.5rem #49ff18;
+	letter-spacing: 0.3rem;
 }
 
 /* -----MAIN CONTENT----- */
 .margin-content {
-  margin-top: 3rem;
+	margin-top: 3rem;
 }
+
 .minor-content {
-  width: 20.8rem;
-  height: 30rem;
+	width: 20.8rem;
+	height: 30rem;
 }
+
 .large-content {
-  width: 62.4rem;
-  height: 30rem;
+	width: 62.4rem;
+	height: 30rem;
 }
+
 .content {
-  border: 1rem ridge #e50914;
-  border-radius: 1.6rem;
-  box-shadow: 0px 3px 9px 4px #000000b3;
+	border: 1rem ridge #e50914;
+	border-radius: 1.6rem;
+	box-shadow: 0px 3px 9px 4px #000000b3;
 }
+
 .game-main {
-  padding: 3.2rem;
-  background-image: url(../img/172414696_118344473687470_6424409477116996190_n.jpg);
-  height: 30rem;
-  background-size: cover;
-  width: 100%;
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  max-height: 30rem;
+	display: flex;
+	background-image: linear-gradient(rgb(0 0 0 / 35%), rgb(0 0 0 / 35%) 100%), url(../img/172414696_118344473687470_6424409477116996190_n.jpg);
+	height: 30rem;
+	background-size: 49%;
+	background-position: 0% 47%;
+	background-repeat: no-repeat;
+	max-height: 30rem;
+	justify-content: flex-end;
 }
-.terra{
-  max-height: 30rem;
+
+.game-main .sobre {
+	max-width: 50%;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
 }
+
 .games-geral {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
 }
-.imagens{
-  width: 15rem;
-  height: 22.5rem;
-  display: block;
+
+.imagens {
+	width: 15rem;
+	height: 22.5rem;
+	display: block;
 }
+
 .games-geral div p {
-  text-shadow: 0.1rem 0.1rem 0.1rem black;
+	text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
+
 .major-games {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
-@keyframes myAnim {
-  0% {
-    transform: scale(0.9);
-  }
 
-  50% {
-    transform: scale(1);
-  }
+/* -----------Botão Download---------- */
 
-  100% {
-    transform: scale(0.9);
-  }
+.sumario {
+	margin-top: 2rem;
+}
+
+.sumario summary {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+	border: 0.3rem solid #3c67e3;
+    font-size: 1.8rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-family: Bebas, Arial, Helvetica, sans-serif;
+	list-style: none;
+	text-align: center;
+}
+
+.sumario summary:hover {
+	animation: pulse 1s ease-in-out infinite;
+}
+
+.sumario button {
+	padding: 1rem 2rem;
+    border-radius: 1rem;
+	border: 0.3rem solid #3c67e3;
+    font-size: 1.8rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-family: Bebas, Arial, Helvetica, sans-serif;
+	list-style: none;
+	text-align: center;
+	margin-top: 1rem;
+	background-color: transparent;
+}
+
+.sumario button:hover {
+	animation: pulse 1s ease-in-out infinite;
+}
+
+.sumario button:nth-child(1) {
+	margin-right: 1rem;
+}
+
+@keyframes pulse {
+	0%{
+		box-shadow: 0 0 2.5rem #5ddcff, 0 0 5rem #4e00c2;
+	}
 }
